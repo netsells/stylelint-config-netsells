@@ -1,0 +1,11 @@
+{
+    "name": "stylelint-config-netsells",
+    "version": "1.0.0",
+    "description": "Stylelint config for the Netsells organisation",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
+    "license": "ISC"
+}
