@@ -1,5 +1,4 @@
 module.exports = {
-    SILENT: 0,
-    WARNING: 1,
-    ERROR: 2,
+    WARNING: { "severity": "warning" },
+    ERROR: { "severity": "error" },
 }

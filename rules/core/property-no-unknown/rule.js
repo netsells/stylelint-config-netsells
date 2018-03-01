@@ -1,5 +1,7 @@
-const _THROW = require('../modules/throwables');
+const _THROW = require('../../../modules/throwables');
 
-module.export = {
-    'property-no-unknown': [_THROW.WARNING],
+module.exports = {
+    rules: {
+        'property-no-unknown': [true, _THROW.ERROR],
+    },
 }
