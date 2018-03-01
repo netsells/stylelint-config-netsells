@@ -4,8 +4,14 @@
     "description": "Stylelint config for the Netsells organisation",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint ./index.js ./rules/**/*.js --fix"
     },
     "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "eslint": "^4.10.0",
+        "eslint-config-netsells": "netsells/eslint-config-netsells",
+        "glob": "^7.1.2"
+    }
 }
