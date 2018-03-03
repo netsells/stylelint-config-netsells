@@ -4,7 +4,7 @@ Sets the case of hex values to lowercase
 
 ##### 🧟 Example of incorrect code for this rule:
 
-```js
+```css
 a {
     color: #FFF;
 }
@@ -16,7 +16,7 @@ a {
 
 ##### 🦄 Example of correct code for this rule:
 
-```js
+```css
 a {
     color: #fff;
 }

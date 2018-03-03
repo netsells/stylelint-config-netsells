@@ -1,10 +1,10 @@
-#### 📍 property-no-unkown
+#### 📍 property-no-unknown
 
 Prevents unknown properties being used
 
 ##### 🧟 Example of incorrect code for this rule:
 
-```js
+```css
 a {
     colr: blue;
 }

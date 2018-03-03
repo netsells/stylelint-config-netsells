@@ -10,11 +10,11 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-netsells": "netsells/eslint-config-netsells",
     "glob": "^7.1.2"
   },
   "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-netsells": "netsells/eslint-config-netsells",
     "husky": "^0.15.0-rc.8"
   },
   "husky": {

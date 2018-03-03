@@ -20,13 +20,13 @@ Now extend the config in your project. For example, a `.stylelintrc` file in you
 
 ### With webpack
 
-Add the stylelint-webpack-plugin to your project:
+Add the `stylelint-webpack-plugin` to your project:
 
 ```bash
 yarn add stylelint-webpack-plugin
 ```
 
-Add the loader into your workflow. The following example will force the linter to be ran before other loaders such as babel compilation. This means we lint the raw ES6 code rather than the transpiled ES5 output:
+Add the plugin to your webpack config:
 
 ```js
 const StyleLintPlugin = require('stylelint-webpack-plugin');
