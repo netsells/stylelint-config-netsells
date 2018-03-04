@@ -4,6 +4,7 @@ Does not allow colour names to be used within CSS, only hex & rgb(a) codes are a
 
 ##### 🧟 Example of incorrect code for this rule:
 
+```css
 a {
     color: black;
 }
@@ -11,9 +12,11 @@ a {
 a {
     color: white;
 }
+```
 
 ##### 🦄 Example of correct code for this rule:
 
+```css
 a {
     color: #ffffff;
 }
@@ -25,3 +28,4 @@ a {
 a {
     color: rgba(0, 0, 0);
 }
+```
