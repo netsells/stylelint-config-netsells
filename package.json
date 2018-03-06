@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./index.js ./rules/**/*.js --fix"
+    "lint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
+    "generate": "node ./build/build-readme.js"
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
@@ -19,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run lint && npm run generate && git add README.md"
     }
   }
 }
