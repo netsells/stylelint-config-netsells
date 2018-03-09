@@ -109,6 +109,37 @@ a {
 
 ---
 
+#### 📍 declaration-no-important
+
+Disallow !important within declarations.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+    color: #FFFFFF !important;
+}
+
+a {
+    color: #FFFFFF!important;
+}
+
+a {
+    color: #FFFFFF ! important;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    color: #FFFFFF;
+}
+
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
