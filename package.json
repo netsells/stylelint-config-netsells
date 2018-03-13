@@ -11,6 +11,7 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
     "glob": "^7.1.2"
   },
   "devDependencies": {

@@ -39,7 +39,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
     plugins: [
         new StyleLintPlugin({
             configFile: './.stylelintrc',
-            files: './resources/assets/less/**/*.less',
+            files: './resources/assets/**/*',
         }),
     ],
 },
