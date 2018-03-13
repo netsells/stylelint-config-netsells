@@ -49,6 +49,41 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 ### Core
 
+#### 📍 block-no-empty
+
+Disallow empty blocks.
+
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+
+}
+
+@media print {
+    a {
+
+    }
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    color: #FFFFFF;
+}
+
+@media print {
+    a {
+        color: #FFFFFF;
+    }
+}
+```
+
+---
+
 #### 📍 color-hex-case
 
 Sets the case of hex values to lowercase.

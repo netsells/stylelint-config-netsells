@@ -1,0 +1,9 @@
+a {
+    color: #FFFFFF;
+}
+
+@media print {
+    a {
+        color: #FFFFFF;
+    }
+}
