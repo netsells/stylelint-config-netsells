@@ -164,6 +164,37 @@ Zero lengths should not have units.
 
 ---
 
+#### 📍 media-feature-colon-space-after
+
+Require a single space after the colon in media features.
+
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+@media (max-width:600px) {
+
+}
+
+@media (max-width :600px) {
+
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+@media (max-width: 600px) {
+
+}
+
+@media (max-width : 600px) {
+
+}
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
