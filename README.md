@@ -140,6 +140,30 @@ a {
 
 ---
 
+#### 📍 length-zero-no-unit
+
+Zero lengths should not have units.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+.my-element {
+    top: 0px;
+    left: 0px;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+.my-element {
+    top: 0;
+    left: 0;
+}
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
