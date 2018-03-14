@@ -45,6 +45,16 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 },
 ```
 
+### Commands
+
+#### create-rule
+
+This command will create a blank rule template for you.
+
+```
+npm run create-rule core/brand-new-rule
+```
+
 ## Rules
 
 {{RULES}}

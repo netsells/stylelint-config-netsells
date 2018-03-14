@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
-    "generate": "node ./build/build-readme.js"
+    "generate": "node ./build/build-readme.js",
+    "create-rule": "node ./commands/create-rule/index.js"
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
