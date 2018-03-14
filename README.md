@@ -248,4 +248,22 @@ a {
 
 ---
 
+#### 📍 unit-no-unknown
+
+Prevents unknown units being used.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+.my-element {
+    width: 90xp;
+}
+
+.other-element {
+    border-radius: 40pixels;
+}
+```
+
+---
+
 
