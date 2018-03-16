@@ -240,6 +240,39 @@ Require a single space after the colon in media features.
 
 ---
 
+#### 📍 block-no-empty
+
+Disallow extra semicolons.
+
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+  color: #000000;;
+}
+
+a {
+  ;color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  ;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    color: #ffffff;
+}
+
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
