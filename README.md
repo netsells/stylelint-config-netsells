@@ -124,6 +124,36 @@ a {
 
 ---
 
+#### 📍 color-hex-length
+
+Forces the length of hex codes used in styles to be long notation rather than short.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+    color: #fff;
+}
+
+a {
+    color: #fffa;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffaa;
+}
+```
+
+---
+
 #### 📍 color-named
 
 Colors must never be named.
