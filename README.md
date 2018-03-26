@@ -362,6 +362,36 @@ a {
 
 ---
 
+#### 📍 number-leading-zero
+    
+Requires a leading zero on fractional values that are less than one.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+    line-height: .5px;
+}
+
+a {
+    transform: translate(2px, .4px);
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    line-height: 0.5px;
+}
+
+a {
+    transform: translate(2px, 0.4px);
+}
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
