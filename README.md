@@ -516,6 +516,54 @@ a {
 
 ---
 
+#### 📍 shorthand-property-no-redundant-values
+    
+Disallow redundant values in shorthand properties.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a { 
+    margin: 1px 1px; 
+}
+
+a { 
+    margin: 1px 1px 1px 1px; 
+}
+
+a { 
+    padding: 1px 2px 1px; 
+}
+
+a { 
+    border-radius: 1px 2px 1px 2px; 
+}
+
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a { 
+    margin: 1px;
+}
+
+a { 
+    margin: 1px 1px 1px 2px;
+}
+
+a { 
+    padding: 1px 1em 1pt 1pc;
+}
+
+a { 
+    border-radius: 10px / 5px;
+}
+
+```
+
+---
+
 #### 📍 unit-no-unknown
 
 Prevents unknown units being used.
