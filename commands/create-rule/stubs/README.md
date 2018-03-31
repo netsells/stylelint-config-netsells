@@ -1,3 +1,3 @@
 #### 📍 <rule-name>
     
-_Please give a short description of the rule_
+<description>
