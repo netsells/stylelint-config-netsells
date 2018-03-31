@@ -184,6 +184,45 @@ a {
 
 ---
 
+#### 📍 color-no-invalid-hex
+
+Disallow invalid hex colors.
+
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a { 
+    color: #00; 
+}
+
+a {
+    color: #fff1az; 
+}
+
+a { 
+    color: #12345aa; 
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a { 
+    color: #000000; 
+}
+
+a { 
+    color: #fff1a0; 
+}
+
+a { 
+    color: #123450aa; 
+}
+```
+
+---
+
 #### 📍 declaration-block-no-shorthand-property-overrides
 
 Prevents shorthand properties overriding longhand ones. 
