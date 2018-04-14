@@ -498,6 +498,56 @@ a {
 
 ---
 
+#### 📍 property-case
+    
+Specify lowercase for properties.
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a {
+    Width: 1px
+}
+
+a {
+    WIDTH: 1px
+}
+
+a {
+    border-Radius: 5px;
+}
+
+a {
+    -WEBKIT-animation-duration: 3s;
+}
+
+@media screen and (orientation:landscape) {
+    WiDtH: 500px;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a {
+    width: 1px
+}
+
+a {
+    border-radius: 5px;
+}
+
+a {
+    -webkit-animation-duration: 3s;
+}
+
+@media screen and (orientation:landscape) {
+    width: 500px;
+}
+```
+
+---
+
 #### 📍 property-no-unknown
 
 Prevents unknown properties being used.
