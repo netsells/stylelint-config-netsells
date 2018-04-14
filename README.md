@@ -184,7 +184,7 @@ a {
 
 ---
 
-#### 📍 color-no-invalid-hex
+#### 📍 block-no-empty
 
 Disallow invalid hex colors.
 
@@ -218,6 +218,39 @@ a {
 
 a { 
     color: #123450aa; 
+}
+```
+
+---
+
+#### 📍 declaration-block-no-duplicate-properties
+    
+Disallow duplicate properties within declaration blocks.
+This rule ignores variables ($sass, @less, --custom-property).
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+a { 
+    color: #FFFFFF;
+    color: #000000; 
+}
+a { 
+    color: #FFFFFF;
+    background: #000000; 
+    color: #000000;
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+a { 
+    color: #FFFFFF;
+}
+a { 
+    color: #FFFFFF; 
+    background: #000000;
 }
 ```
 
@@ -521,9 +554,10 @@ a {
     -WEBKIT-animation-duration: 3s;
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation: landscape) {
     WiDtH: 500px;
 }
+
 ```
 
 ##### 🦄 Example of correct code for this rule:
@@ -541,9 +575,10 @@ a {
     -webkit-animation-duration: 3s;
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation: landscape) {
     width: 500px;
 }
+
 ```
 
 ---
