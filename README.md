@@ -184,7 +184,7 @@ a {
 
 ---
 
-#### 📍 block-no-empty
+#### 📍 color-no-invalid-hex
 
 Disallow invalid hex colors.
 
@@ -468,7 +468,7 @@ Require a single space after the colon in media features.
 
 ---
 
-#### 📍 block-no-empty
+#### 📍 no-extra-semicolons
 
 Disallow extra semicolons.
 

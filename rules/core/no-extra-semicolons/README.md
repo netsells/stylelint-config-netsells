@@ -1,3 +1,3 @@
-#### 📍 block-no-empty
+#### 📍 no-extra-semicolons
 
 Disallow extra semicolons.
