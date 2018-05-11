@@ -437,6 +437,50 @@ Zero lengths should not have units.
 
 ---
 
+#### 📍 max-empty-lines
+
+Limit the number of adjacent empty lines.
+
+
+##### 🧟 Example of incorrect code for this rule:
+
+```css
+h1 {
+
+}
+
+
+
+
+p {
+
+}
+
+
+
+span {
+    
+}
+```
+
+##### 🦄 Example of correct code for this rule:
+
+```css
+h1 {
+
+}
+
+p {
+
+}
+
+span {
+
+}
+```
+
+---
+
 #### 📍 media-feature-colon-space-after
 
 Require a single space after the colon in media features.
