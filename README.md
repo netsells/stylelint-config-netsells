@@ -9,14 +9,14 @@ This repository contains the defacto-standard stylelint configuration used on al
 Add the config to your project dependencies:
 
 ```bash
-yarn add netsells/stylelint-config-netsells
+yarn add @netsells/stylelint-config
 ```
 
 Now extend the config in your project. For example, a `.stylelintrc` file in your project root:
 
 ```json
 {
-  "extends": "stylelint-config-netsells"
+  "extends": "@netsells/stylelint-config"
 }
 ```
 
