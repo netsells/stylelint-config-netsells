@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'no-extra-semicolons': [true, _THROW.WARNING],
     },
-}
+};

@@ -9,7 +9,7 @@ This repository contains the defacto-standard stylelint configuration used on al
 Add the config to your project dependencies:
 
 ```bash
-yarn add netsells/stylelint-config-netsells stylelint
+yarn add netsells/stylelint-config-netsells
 ```
 
 Now extend the config in your project. For example, a `.stylelintrc` file in your project root:
@@ -82,12 +82,12 @@ a {
 
 ```css
 a {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 @media print {
     a {
-        color: #FFFFFF;
+        color: #ffffff;
     }
 }
 ```
@@ -114,7 +114,7 @@ a {
 
 ```css
 a {
-    color: #fff;
+    color: #ffffff;
 }
 
 a {
@@ -174,7 +174,7 @@ a {
 
 ```css
 a { 
-    color: #000; 
+    color: #000000; 
 }
 
 a {
@@ -246,10 +246,10 @@ a {
 
 ```css
 a { 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 a { 
-    color: #FFFFFF; 
+    color: #ffffff; 
     background: #000000;
 }
 ```
@@ -339,7 +339,7 @@ a {
 
 ```css
 a {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 ```

@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'color-named': ['never', _THROW.WARNING],
     },
-}
+};

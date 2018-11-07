@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'length-zero-no-unit': [true, _THROW.WARNING],
     },
-}
+};

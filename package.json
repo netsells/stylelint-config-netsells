@@ -5,21 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
+    "lint:eslint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
+    "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
+    "lint": "npm run lint:stylelint && npm run lint:eslint",
     "generate": "node ./build/build-readme.js",
     "create-rule": "node ./commands/create-rule/index.js"
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
     "glob": "^7.1.2",
     "scraperjs": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
-    "eslint-config-netsells": "netsells/eslint-config-netsells",
-    "husky": "^0.15.0-rc.8"
+    "husky": "^0.15.0-rc.8",
+    "stylelint": "^9.7.1",
+    "@netsells/eslint-config": "^1.8.0",
+    "eslint-plugin-require-jsdoc-except": "^1.3.0",
+    "eslint-plugin-vue": "^4.7.1"
   },
   "husky": {
     "hooks": {

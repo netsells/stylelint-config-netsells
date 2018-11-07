@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'media-feature-colon-space-after': ['always', _THROW.WARNING],
     },
-}
+};

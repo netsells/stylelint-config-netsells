@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'color-hex-case': ['lower', _THROW.ERROR],
     },
-}
+};

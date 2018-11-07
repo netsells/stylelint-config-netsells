@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'declaration-no-important': [true, _THROW.ERROR],
     },
-}
+};

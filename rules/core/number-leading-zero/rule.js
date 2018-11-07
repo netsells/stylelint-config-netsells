@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'number-leading-zero': ['always', _THROW.WARNING],
     },
-}
+};

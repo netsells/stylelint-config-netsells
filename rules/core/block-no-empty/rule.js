@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'block-no-empty': [true, _THROW.WARNING],
     },
-}
+};

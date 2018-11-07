@@ -4,4 +4,4 @@ module.exports = {
     rules: {
         'property-case': ['lower', _THROW.WARNING],
     },
-}
+};
